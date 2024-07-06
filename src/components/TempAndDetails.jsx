@@ -49,6 +49,12 @@ function TempAndDetails({ weatherData, units }) {
       title: "High",
       value: `${weatherData["temp_max"]}°`,
     },
+    // {
+    //   id: 4,
+    //   Icon: KeyboardArrowDownTwoToneIcon,
+    //   title: "Low",
+    //   value: `${weatherData["temp_min"]}°`,
+    // },
     {
       id: 4,
       Icon: KeyboardArrowDownTwoToneIcon,
